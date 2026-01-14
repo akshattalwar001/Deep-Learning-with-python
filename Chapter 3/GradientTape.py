@@ -4,7 +4,7 @@ import tensorflow as tf
 x = tf.constant(2.0)
 y_true = tf.constant(6.0)
 
-# Trainable variable (weight)
+# Trainable variable (weight) 
 w = tf.Variable(0.0)
 
 learning_rate = 0.1
